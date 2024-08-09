@@ -1,0 +1,174 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1467.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,1402.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="ProjectPath">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">C:\Users\Admin\Desktop\Project</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: JD Sports Global | Shop Online Now" sap:VirtualizedContainerService.HintSize="545.6,1017.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="daa89322-778a-4b72-a236-5ed256065438" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,800.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search Field'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="449.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="daa89322-778a-4b72-a236-5ed256065438" Text="Nike T-shirt[k(Enter)]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.global.jdsports.com/" DesignTimeRectangle="991, 275, 388, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT srchInput'" FullSelectorArgument="&lt;webctrl id='srchInput' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='srchInput' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="25d5431f-edc7-4da0-bbd7-0c4c2dc3b90e" InformativeScreenshot="fdcf48d04fe535317e484266b734dc7c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JD Sports Global | Shop Online Now' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,428.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Title' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Url' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Price' ReferenceName='Column3'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column1' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" Timeout="5" Version="V3">
+                <uix:NExtractData.NextLink>
+                  <uix:TargetAnchorable BrowserURL="https://www.global.jdsports.com/search/Nike+T-shirt/" DesignTimeRectangle="659, 931, 45, 45" DesignTimeScaleFactor="1.25" FriendlyName="'A /search/Nike+T-shirt/…'" FullSelectorArgument="&lt;webctrl aaname='Next Page' id='/search/Nike+T-shirt/?from=72' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Next Page' id='/search/Nike+T-shirt/?from=72' tag='A' type='' class='btn btn-default pageNav' /&gt;" Guid="76da56fe-53f0-4904-a249-fd358b73310d" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Nike T-shirt - JD Sports Global' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NExtractData.NextLink>
+                <uix:NExtractData.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.global.jdsports.com/search/Nike+T-shirt/" DesignTimeRectangle="371, -12229, 1488, 13126" DesignTimeScaleFactor="1.25" ElementType="List" FriendlyName="'UL productListMain'" FullSelectorArgument="&lt;webctrl id='productListMain' tag='UL' /&gt;" Guid="87074155-5efe-486a-a3df-1a86c21622db" InformativeScreenshot="b657b2dfc7e9f8fa3557ef89225c1fe4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Nike T-shirt - JD Sports Global' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NExtractData.Target>
+              </uix:NExtractData>
+              <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Nike T-shirt" WorkbookPath="[ProjectPath + &quot;\Output\ScrapedData.xlsx&quot;]" />
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="dfd70da4de2fa81a2464c4917a719432.jpg" Selector="&lt;html app='chrome.exe' title='JD Sports Global | Shop Online Now' /&gt;" Title="JD Sports Global | Shop Online Now" Url="https://www.global.jdsports.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="545.6,232.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="fa126757-11c6-4327-bb72-d14ccbf4056f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="09684af5874d468b57096543a59629e1.jpg" Selector="&lt;html app='chrome.exe' title='Nike T-shirt - JD Sports Global' /&gt;" Title="Nike T-shirt - JD Sports Global" Url="https://www.global.jdsports.com/search/Nike+T-shirt/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
